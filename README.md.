@@ -1,0 +1,36 @@
+SmartFood ERP – Smart Manufacturing & Inventory Management System
+
+About the Project
+
+SmartFood ERP is a Django-based Enterprise Resource Planning application designed to manage food production, inventory, sales, billing, and business reports.
+
+Modules
+
+- User Authentication
+- Product Management
+- Inventory Management
+- Production Management
+- Sales Management
+- Billing and Invoices
+- Reports and Analytics
+
+Technologies
+
+- Python
+- Django
+- HTML5
+- CSS3
+- Bootstrap
+- SQLite
+
+Project Status
+
+🚧 Under Development
+
+Developer
+
+Nevetha R
+
+GitHub
+
+https://github.com/nevetha-the-hacker/Smartfood-erp
