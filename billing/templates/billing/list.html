@@ -1,0 +1,6 @@
+<h1>Billing & Invoices</h1>
+{% for i in invoices %}
+<p>{{ i.invoice_number }} - {{ i.customer.name }} - ₹{{ i.amount }} - {{ i.status }}</p>
+{% empty %}
+<p>No invoices available.</p>
+{% endfor %}
