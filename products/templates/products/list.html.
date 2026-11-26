@@ -1,0 +1,6 @@
+<h1>Products</h1>
+{% for p in products %}
+<p>{{ p.name }} | {{ p.sku }} | ₹{{ p.price }} | Stock: {{ p.quantity }}</p>
+{% empty %}
+<p>No products added yet.</p>
+{% endfor %}
