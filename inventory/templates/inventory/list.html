@@ -1,0 +1,6 @@
+<h1>Inventory Management</h1>
+{% for s in stocks %}
+<p>{{ s.product.name }} - {{ s.quantity }}</p>
+{% empty %}
+<p>No inventory records.</p>
+{% endfor %}
