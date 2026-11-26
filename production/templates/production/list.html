@@ -1,0 +1,6 @@
+<h1>Production Orders</h1>
+{% for o in orders %}
+<p>{{ o.product.name }} - {{ o.quantity }} - {{ o.status }}</p>
+{% empty %}
+<p>No production orders.</p>
+{% endfor %}
