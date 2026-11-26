@@ -1,0 +1,6 @@
+<h1>Sales</h1>
+{% for s in sales %}
+<p>{{ s.customer.name }} - ₹{{ s.amount }}</p>
+{% empty %}
+<p>No sales recorded.</p>
+{% endfor %}
